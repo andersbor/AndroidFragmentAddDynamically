@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dk.easj.anbo.fragmentadddynamically.Fragment2">
+    tools:context="dk.easj.anbo.fragmentadddynamically.MySimpleFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fragment 2"
+        android:text="My Simple Fragment"
         android:textColor="#000001"
         android:textSize="25sp" />
 </FrameLayout>

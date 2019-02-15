@@ -8,18 +8,18 @@
     tools:context="dk.easj.anbo.fragmentadddynamically.MainActivity">
 
     <fragment
-        android:id="@+id/fragment1"
-        android:name="dk.easj.anbo.fragmentadddynamically.Fragment1"
+        android:id="@+id/fragment"
+        android:name="dk.easj.anbo.fragmentadddynamically.MyAdvancedFragment"
         android:layout_width="0px"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:layout="@layout/fragment_fragment1" />
+        tools:layout="@layout/fragment_advanced" />
 
     <fragment
         android:id="@+id/fragment2"
-        android:name="dk.easj.anbo.fragmentadddynamically.Fragment2"
+        android:name="dk.easj.anbo.fragmentadddynamically.MySimpleFragment"
         android:layout_width="0px"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:layout="@layout/fragment_fragment2" />
+        tools:layout="@layout/fragment_simple" />
 </LinearLayout>
