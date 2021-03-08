@@ -25,7 +25,7 @@ public class MyAdvancedFragment extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        Bundle arguments = getArguments();
+        Bundle arguments = getArguments(); // similar to getIntent() ...
         if (arguments != null) {
             String message = arguments.getString(MESSAGE);
             TextView textView = view.findViewById(R.id.textViewMessage);
